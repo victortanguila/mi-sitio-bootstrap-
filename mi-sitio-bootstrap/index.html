@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internet Rapinet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="logo rapinet.jpg" alt="Logo Rapinet" width="40" class="me-2">
+      Rapinet
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuRapinet">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menuRapinet">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#planes">Planes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="text-white text-center header-custom">
+  <div class="container">
+    <img src="logo rapinet.jpg" alt="Internet" width="150" class="mb-4">
+    <h1>Bienvenido a Internet Rapinet</h1>
+    <p>Conectamos Loreto y comunidades cercanas con la mejor calidad.</p>
+  </div>
+</header>
+
+<!-- PLANES -->
+<section id="planes" class="container py-5">
+  <h2 class="text-center mb-4">Nuestros Planes</h2>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card border-primary">
+        <div class="card-body text-center">
+          <h4 class="card-title">Plan Básico</h4>
+          <p>10 Mbps – Ideal para navegar</p>
+          <p><strong>$15/mes</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card border-success">
+        <div class="card-body text-center">
+          <h4 class="card-title">Plan Medio</h4>
+          <p>30 Mbps – Streaming y clases</p>
+          <p><strong>$25/mes</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card border-danger">
+        <div class="card-body text-center">
+          <h4 class="card-title">Plan Pro</h4>
+          <p>60 Mbps – Uso familiar intensivo</p>
+          <p><strong>$40/mes</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Servicios Adicionales</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">✔ Instalación gratuita</li>
+          <li class="list-group-item">✔ Asistencia técnica 24/7</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">✔ Mejoras de velocidad en fines de semana</li>
+          <li class="list-group-item">✔ Protección con firewall</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="container py-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre completo</label>
+          <input type="text" class="form-control" id="nombre" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center py-3 mt-4">
+  <p>© 2025 Internet Rapinet - Loreto, Ecuador</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
